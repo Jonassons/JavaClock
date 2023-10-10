@@ -1,3 +1,3 @@
 # JavaClock
-Mp1
+
 Projektet utgör en konsolapplikation med målet att hantera och visa tid och datum genom ett användarvänligt menysystem. Projektet inkluderar flera klasser som är avsedda för att hantera aspekter av tid och datum. Det innefattar klasser för tidsrepresentation och datumrepresentation samt en huvudklass som ansvarar för att interagera med användaren. En viktig aspekt i projektet är att vissa åtgärder begränsas av det aktuella tillståndet (state) i applikationen. Till exempel, när applikationen befinner sig i "ShowTime"-läge, är det inte möjligt att ändra datumet. På samma sätt, när applikationen är inställd på att visa tid, är försök att ändra tiden inte tillåtna. Dessa begränsningar hjälper till att säkerställa att användaren endast kan utföra relevanta åtgärder i det aktuella tillståndet.
